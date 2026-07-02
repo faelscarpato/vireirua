@@ -1,0 +1,6 @@
+{
+  "name": "Ruas com História - Pedreira/SP",
+  "description": "Mapa cultural interativo de Pedreira/SP com geolocalização determinística, categorização por eixos culturais, evolução cronológica de batismos, mural de relatos orais em localStorage e enriquecimento com IA (Google Search e Maps Grounding).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
