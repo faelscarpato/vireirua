@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ruas com História - Pedreira/SP</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ruas com <span>História</span> | Pedreira/SP</h1>
+    <input id="search" placeholder="Buscar rua: Ex: Brasil, Landgraf..." autocomplete="off" />
+    <button class="btn btn-ghost" id="toggleBtn">Lista</button>
+  </header>
+
+  <main>
+    <div id="map"></div>
+    <button class="btn" id="closeBtn" aria-label="Fechar">Fechar</button>
+    <aside id="sidebar" class="hidden" aria-hidden="true">
+      <div id="sidebarContent">
+        <div class="empty-state">
+          <p>Clique em uma rua no mapa para ver a história 👆</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="ruas_pedreira_final.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
